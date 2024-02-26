@@ -1,13 +1,21 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      php: 8.3
   pre_build:
     commands:
       - echo preBuild
+      - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+      - php composer-setup.php ;
+      - mv composer.phar /usr/bin/composer
+      - php -v
   build:
     commands:
       - echo Build
-      - cd laravel-test
-      - php artisan key:generate
       - composer install
+      - composer update
+      - echo APP_KEY= > .env
+      - php artisan key:generate
       - vendor/bin/phpunit
