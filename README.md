@@ -2,13 +2,19 @@
 
 ## Description
 
-This is a Laravel 10 project with buildspec.yml, appspec.yml and directory structure for CodePipeline pipeline pipeline including CodeBuild and CodeDeploy to work.
+This is a Laravel 10 project with buildspec.yml, appspec.yml and directory structure for AWS CodePipeline pipeline pipeline including AWS CodeBuild and AWS CodeDeploy to work.
 
 ## Usage
 
-Please set source of CodeBuild.
+Please set source of AWS CodeBuild.
 
+Please edit scripts of deployment.
 
+| Scripts | How-to |
+| ---- | ---- |
+| start_server.sh | Starting Web Server |
+| setpermission.sh | Changing permission |
+| stop_server.sh | Stopping Web Server |
 
 ## Authors
 
