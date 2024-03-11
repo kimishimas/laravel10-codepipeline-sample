@@ -19,3 +19,6 @@ phases:
       - echo APP_KEY= > .env
       - php artisan key:generate
       - vendor/bin/phpunit
+artifacts:
+    files:
+      - '**/*'
