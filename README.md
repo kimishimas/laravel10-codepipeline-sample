@@ -20,8 +20,6 @@ Please edit scripts of deployment.
 
 Sho Kimishima
 
-## use
-add comment
 
 
 ## License
