@@ -22,6 +22,7 @@ Sho Kimishima
 
 ## Detail
 これはサンプルプロジェクトです。
+main
 
 ## License
 
