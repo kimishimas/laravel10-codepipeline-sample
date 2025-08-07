@@ -21,7 +21,7 @@ Please edit scripts of deployment.
 Sho Kimishima
 
 ## Detail
-
+これはサンプルプロジェクトです。
 
 ## License
 
